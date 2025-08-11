@@ -1,0 +1,34 @@
+/* Navbar brand style */
+.custom-navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    margin-right: 30px;
+}
+
+/* Navbar container */
+.custom-navbar {
+    background-color: #76abe0; /* dark background */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* ensure it's on top */
+}
+
+/* Navigation links wrapper with left margin */
+.custom-nav {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* Individual nav links */
+.custom-nav-link {
+    color: white !important;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.custom-nav-link:hover {
+    text-decoration: underline;
+}
